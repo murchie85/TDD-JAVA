@@ -91,13 +91,13 @@ An example of some features is, if the code fails you will see it in red, and gr
 2. Add Library
  
 
-![alt text](images/addlib.png "Java Library")
+![alt text](images/junit.png "Java Library")
 
 1. Select Junit
 2. In our case we select Junit  4   (or 5)
 
 
-![alt text](images/junit.png "Java Library")
+![alt text](images/addlib.png "Java Library")
 
 
 Notice you will now have Junit library in your project. 
@@ -163,9 +163,12 @@ The changes made are as follows:
 4. Remove String[] args
 5. Instead of printlines, we use Assert methods that take (actualvalue,expectedvalue)
 
-Now lets refactor the name of our java class 
-*program.java*  
-to  
+Now lets refactor the name of our java class  
+
+*program.java*   
+
+to   
+
 *BiggerAndSmallerTest.java* 
 
 as this is inline with our Junit test conventions

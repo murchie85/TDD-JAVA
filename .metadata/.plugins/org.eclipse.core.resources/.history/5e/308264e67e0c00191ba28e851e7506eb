@@ -11,7 +11,7 @@ public class BiggerAndSmaller {
 	public void find(int[] numbers) {
 		for(int n : numbers){
 			if(n > bigger) bigger = n;
-			if(n < smaller) smaller = n;
+			else if(n < smaller) smaller = n;
 			
 		}
 		

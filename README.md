@@ -32,7 +32,7 @@ Manual testing normally comes in three parts
 
 Take a look at the code base below 
 
-`  
+```
 package udemyTDD.numbers;
 
 public class Program {
@@ -48,7 +48,7 @@ public class Program {
 
 }
 
-`
+```
 
 Notice that we almost have a complete automated test. Because as soon as you invoke this program, it will run forever to completion, it will run the #algorithm.find# object with a set number of parameters (123). 
 

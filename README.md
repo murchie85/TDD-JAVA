@@ -32,7 +32,7 @@ Manual testing normally comes in three parts
 
 Take a look at the code base below 
 
-`
+`  
 package udemyTDD.numbers;
 
 public class Program {
@@ -47,6 +47,7 @@ public class Program {
 	}
 
 }
+
 `
 
 Notice that we almost have a complete automated test. Because as soon as you invoke this program, it will run forever to completion, it will run the #algorithm.find# object with a set number of parameters (123). 
@@ -58,7 +59,7 @@ The only issue is there is a manual validation at the print section, because it 
 Running the boolean statements below should get us a step closer to automation...
 
 `
-System.out.println(algorithm.getBigger() == 4);
+System.out.println(algorithm.getBigger() == 4);  
 System.out.println(algorithm.getsmaller() == 2);
 `
 This should print out the following: 
@@ -67,3 +68,5 @@ This should print out the following:
 TRUE
 TRUE
 `
+
+

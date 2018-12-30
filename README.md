@@ -163,3 +163,10 @@ The changes made are as follows:
 4. Remove String[] args
 5. Instead of printlines, we use Assert methods that take (actualvalue,expectedvalue)
 
+Now lets refactor the name of our java class 
+*program.java*  
+to  
+*BiggerAndSmallerTest.java* 
+
+as this is inline with our Junit test conventions
+

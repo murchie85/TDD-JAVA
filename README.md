@@ -70,3 +70,14 @@ TRUE
 `
 
 
+## Introducing JUNIT
+
+Of course we wouldn't just throw in printline statements as our only means of code validation, Junit is a scripted process of running a battery of tests against a JAVA code base, for other code bases there are Nunit for .Net Rspec for Ruby and so on. 
+
+An example of some features is, if the code fails you will see it in red, and green if it passes (makes it easier for skimming than just TRUE and FALSE statements)
+
+
+## Adding Junit Library
+
+![alt text](images/javalib.png "Java Library")
+

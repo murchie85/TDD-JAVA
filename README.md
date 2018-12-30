@@ -99,3 +99,67 @@ An example of some features is, if the code fails you will see it in red, and gr
 
 ![alt text](images/junit.png "Java Library")
 
+
+Notice you will now have Junit library in your project. 
+
+
+# USING JUNIT
+
+First of we need to move any *STATIC* in our code because Junit tests must be public - or they return nothing. 
+
+So the code below: 
+
+```
+public class Program {
+	// main class to excercise our code
+	public static void main(String[] args) {
+		BiggerAndSmaller algorithm = new BiggerAndSmaller();
+		
+		algorithm.find(new int[] {2,3,4});
+		
+		System.out.println(algorithm.getBigger() == 4);
+		System.out.println(algorithm.getsmaller() == 2);
+	}
+
+}
+```
+
+Becomes 
+
+```
+
+package udemyTDD.numbers;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class Program {
+	// main class to excercise our code
+	
+	@Test
+	public void numbersinIncreasingOrder() {
+		BiggerAndSmaller algorithm = new BiggerAndSmaller();
+		
+		algorithm.find(new int[] {2,3,4});
+		
+		//System.out.println(algorithm.getBigger() == 4);
+		//System.out.println(algorithm.getsmaller() == 2);
+		Assert.assertEquals(4, algorithm.getBigger());
+		Assert.assertEquals(2, algorithm.getsmaller());
+		
+	}
+
+}
+
+
+```
+
+The changes made are as follows:
+
+1. import org.junit.Test;
+2. Remove Static
+3. Change main to numbersinIncreasingOrder
+4. Remove String[] args
+5. Instead of printlines, we use Assert methods that take (actualvalue,expectedvalue)
+

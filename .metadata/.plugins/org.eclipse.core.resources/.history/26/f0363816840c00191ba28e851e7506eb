@@ -1,0 +1,17 @@
+package udemyTDD.numbers;
+
+public class Program {
+	// main class to excercise our code
+	
+	
+	public void numbersinIncreasingOrder(String[] args) {
+		BiggerAndSmaller algorithm = new BiggerAndSmaller();
+		
+		algorithm.find(new int[] {2,3,4});
+		
+		System.out.println(algorithm.getBigger() == 4);
+		System.out.println(algorithm.getsmaller() == 2);
+	}
+
+}
+ 

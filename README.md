@@ -81,3 +81,16 @@ An example of some features is, if the code fails you will see it in red, and gr
 
 ![alt text](images/javalib.png "Java Library")
 
+1. Right click on your project folder as shown above
+2. Build Path
+3. Add Libraries
+
+![alt text](images/addlib.png "Java Library")
+
+1. Select the libraries tab
+2. Add Library
+
+![alt text](images/junit.png "Java Library")
+
+1. Select Junit
+2. In our case we select Junit  4

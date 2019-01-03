@@ -173,3 +173,8 @@ to
 
 as this is inline with our Junit test conventions
 
+
+
+Now you can execute the test by rightclicking - run - run as junit test. You will notice either a green or red bar on the left hand side, depending on the status of your code execution.
+
+From this, we can now create a whole sweet of Junit tests.

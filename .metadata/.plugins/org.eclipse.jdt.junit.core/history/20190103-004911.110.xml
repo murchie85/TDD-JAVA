@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TEST2" project="udemyTDD" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="udemyTDD.numbers.TEST2" time="0.0" uniqueid="[engine:junit-vintage]/[runner:udemyTDD.numbers.TEST2]">
+    <testcase name="numbersInIncreasingOrder" classname="udemyTDD.numbers.TEST2" time="0.0" displayname="numbersInIncreasingOrder" uniqueid="[engine:junit-vintage]/[runner:udemyTDD.numbers.TEST2]/[test:numbersInIncreasingOrder(udemyTDD.numbers.TEST2)]"/>
+    <testcase name="numbersDecreasingOrder" classname="udemyTDD.numbers.TEST2" time="0.0" displayname="numbersDecreasingOrder" uniqueid="[engine:junit-vintage]/[runner:udemyTDD.numbers.TEST2]/[test:numbersDecreasingOrder(udemyTDD.numbers.TEST2)]"/>
+  </testsuite>
+</testrun>

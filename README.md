@@ -105,6 +105,8 @@ Notice you will now have Junit library in your project.
 
 # USING JUNIT
 
+Using JUNIT, is just like using the same methods you normally would to excercise your main class functions. For example, if your main class had get biggest, get smallest number then your class to excercise that would still instantiate the main class as an object then call those methods on the object, but this time with some small changes to make it JUNIT compatible. 
+
 First of we need to move any *STATIC* in our code because Junit tests must be public - or they return nothing. 
 
 So the code below: 
